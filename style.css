@@ -1,0 +1,118 @@
+body {
+    background: linear-gradient(lightgray, skyblue) no-repeat;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+}
+
+#askPerson {
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    color: rgb(11, 63, 147);
+    width: 500px;
+    height: 50px;
+    z-index: 1;
+}
+
+#rater {
+    position: absolute;
+    background-color: #12b7ce;
+    border-radius: 20px;
+    padding: 5px 15px;
+    box-shadow: 5px 5px 10px black;
+}
+
+#greatButton {
+    position: absolute;
+    left: 30px;
+    top: 130px;
+    background-color: #12b7ce;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px black;
+}
+
+#goodButton {
+    position: absolute;
+    left: 30px;
+    top: 160px;
+    background-color: #12b7ce;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px black;
+}
+
+#boringButton {
+    position: absolute;
+    left: 30px;
+    top: 190px;
+    background-color: #12b7ce;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px black;
+}
+
+#dButton {
+    position: absolute;
+    left: 30px;
+    top: 220px;
+    background-color: #12b7ce;
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px black;
+}
+
+#closeButton {
+    position: absolute;
+	left: 100px;
+    background-color: #12b7ce;
+    border-radius: 20px;
+    padding: 5px 15px;
+    box-shadow: 5px 5px 10px black;
+	display: block;
+}
+
+/* Moved the raterTab to the right so it doesn't cover your buttons */
+#raterTab {
+    position: absolute;
+    left: 150px; 
+    top: 80px;
+    height: 200px;
+    width: 200px;
+    background-color: lightgray;
+    border-radius: 10%;
+    box-shadow: 10px 10px 20px black;
+    display: none;
+    z-index: 2;
+}
+
+/* Adjusted text positions to sit nicely inside the raterTab */
+#great {
+    position: absolute;
+    left: 180px;
+    top: 100px;
+    display: none;
+    z-index: 3;
+}
+
+#good {
+    position: absolute;
+    left: 180px;
+    top: 140px;
+    display: none;
+    z-index: 3;
+}
+
+#boring {
+    position: absolute;
+    left: 180px;
+    top: 180px;
+    display: none;
+    z-index: 3;
+}
+
+#disgu {
+    position: absolute;
+    left: 180px;
+    top: 220px;
+    display: none;
+    z-index: 3;
+}

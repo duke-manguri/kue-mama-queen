@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Es Teh Rate</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1 id="askPerson">Bagaimana Kue Disini?</h1>
+    
+    <button onclick="rater()" id="rater">para rater</button>
+	<button onclick="closeTab()" id="closeButton">tutup</button>
+      
+    
+    <button onclick="greatRate()" id="greatButton">ENAK!</button>
+    <button onclick="goodRate()" id="goodButton">LUMAYAN</button>
+    <button onclick="boringRate()" id="boringButton">MEMBOSANKAN</button>
+	<button onclick="disg()" id="dButton">TIDAK ENAK</button>
+
+     <div id="raterTab"></div>
+    <p id="great">enak : <span id="NumberOfRateG">0</span></p>
+    <p id="good">lumayan : <span id="NumberOfRateg">0</span></p>
+    <p id="boring">membosankan : <span id="NumberOfRateb">0</span></p>
+	<p id="disgu">tidak enak : <span id="NumberOfRated">0</span></p>
+    
+    <script type="module" src="game.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
